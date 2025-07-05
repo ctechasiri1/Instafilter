@@ -16,6 +16,11 @@
 			path = Instafilter;
 			sourceTree = "<group>";
 		};
+		51715F642E18B50F00FF010A /* Learning */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Learning;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		51715F4A2E178BBD00FF010A = {
 			isa = PBXGroup;
 			children = (
+				51715F642E18B50F00FF010A /* Learning */,
 				51715F552E178BBD00FF010A /* Instafilter */,
 				51715F542E178BBD00FF010A /* Products */,
 			);
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				51715F552E178BBD00FF010A /* Instafilter */,
+				51715F642E18B50F00FF010A /* Learning */,
 			);
 			name = Instafilter;
 			packageProductDependencies = (
