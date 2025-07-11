@@ -4,18 +4,16 @@
 //
 //  Created by Chiraphat Techasiri on 7/3/25.
 //
-
+import StoreKit
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.requestReview) var requestReview
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Button("Leave a review") {
+            requestReview()
         }
-        .padding()
     }
 }
 
